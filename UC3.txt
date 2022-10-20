@@ -1,0 +1,9 @@
+ create database addressBook;
+ use addressBook;
+ select database();
+ create table contact (ContactId int not null auto_increment primary key, firstName varchar(255), lastName varchar(255),address 
+varchar(255),city varchar(255),state varchar(255),zip int,phoneNumber int,email varchar(255) );
+insert into contact values(1,"suchendra", "mishra","Angwali","Bokaro","Jharkhand",256465,752845245,"suchendramishra396@gmail.com");
+insert into contact values(2,"virat", "kohli","south delhi","gurugram","delhi",0547852,854214454,"viratkohli@gmail.com");
+insert into contact values(3,"rohit", "sharma","bandra","mumbai","Maharashtra",587525,965425487,"rohitsharma@gmail.com");
+select * from contact;
