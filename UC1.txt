@@ -1,0 +1,3 @@
+ create database addressBook;
+ use addressBook;
+ select database();
